@@ -1,5 +1,5 @@
-_ **Student Performance Analysis System
-Analyzing Academic Performance Using Data Analytics**_
+__ **Student Performance Analysis System
+Analyzing Academic Performance Using Data Analytics*
 📌 **Overview**
 
 This project analyzes student academic data to evaluate performance using a structured, analytics-driven approach. It simulates real-world academic records using synthetic data and applies statistical and exploratory techniques to extract meaningful insights.
