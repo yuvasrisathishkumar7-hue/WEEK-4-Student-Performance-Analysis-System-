@@ -50,11 +50,21 @@
                                              Year-wise
                         5. Visualization
                                 * Bar Chart – Department performance
- <img width="423" height="314" alt="image" src="https://github.com/user-attachments/assets/1eea0569-7ece-401a-a4b7-9a84e5a8c1b2" />  
+ <img width="423" height="314" alt="image" src="https://github.com/user-attachments/assets/1eea0569-7ece-401a-a4b7-9a84e5a8c1b2" /> 
+
+
+ 
                                 * Pie Chart – Gender distribution
   <img width="355" height="338" alt="image" src="https://github.com/user-attachments/assets/aca72c40-1c7b-4aa3-8826-34f94ac5496f" />
+
+
+  
                                 *  Histogram – Average marks distribution
-Scatter Plot – Attendance vs Average
+  <img width="423" height="315" alt="image" src="https://github.com/user-attachments/assets/707afb89-6e31-4cee-967b-b29bd3ff28d5" />
+
+
+
+                                * Scatter Plot – Attendance vs Average
 Scatter Plot – Internal Marks vs Total
 Key Insights
 Higher attendance leads to better performance
