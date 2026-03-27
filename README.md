@@ -65,24 +65,34 @@
 
 
                                 * Scatter Plot – Attendance vs Average
-Scatter Plot – Internal Marks vs Total
-Key Insights
-Higher attendance leads to better performance
-Internal marks strongly affect total marks
-Performance varies across departments and years
-Visualization helps understand patterns clearly
-Tools Used
-Python
-pandas
-numpy
-matplotlib
-seaborn
-Faker
-Jupyter Notebook
-Conclusion
+  <img width="424" height="311" alt="image" src="https://github.com/user-attachments/assets/b78b24a7-3e71-4ef2-ba9f-af7e21ae0d0f" />
 
-This project demonstrates how data analytics can be used to analyze student performance effectively. It helps in identifying trends, improving academic planning, and supporting decision-making.
 
-Author
 
-Yuvasri S
+
+                               * Scatter Plot – Internal Marks vs Total
+<img width="430" height="311" alt="image" src="https://github.com/user-attachments/assets/9de59eed-1e14-4534-bd8b-fca7926100b6" />
+
+
+
+                        Key Insights
+                                 * Higher attendance leads to better performance
+                                 * Internal marks strongly affect total marks
+                                 * Performance varies across departments and years
+                                 * Visualization helps understand patterns clearly
+                      
+                       Tools Used
+                             * Python
+                             * pandas
+                             * numpy
+                             * matplotlib
+                             * seaborn
+                             * Faker
+                             * Jupyter Notebook
+                 Conclusion
+
+                               This project demonstrates how data analytics can be used to analyze student performance effectively. It helps in identifying trends, improving academic planning, and supporting decision-making.
+
+                   Author
+
+                  Yuvasri S
