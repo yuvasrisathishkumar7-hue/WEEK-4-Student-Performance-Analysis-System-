@@ -1,71 +1,65 @@
-Student Performance Analysis System
+                                 Student Performance Analysis System (Synthetic Data)
+Problem Statement
 
-Analyzing Academic Performance Using Data Analytics
-
-Overview
-
-This project analyzes student academic data to evaluate performance using a structured, analytics-driven approach. It simulates real-world academic records using synthetic data and applies statistical and exploratory techniques to extract meaningful insights.
-
-Workflow Includes:
-Data preprocessing and cleaning
-Exploratory Data Analysis (EDA)
-Statistical performance evaluation
-Comparative analysis across categories
-Visualization of insights
-
-The objective is to demonstrate a data analytics workflow that is structured, interpretable, and insightful, supporting academic evaluation and decision-making.
+Educational institutions generate large amounts of student data, but manual analysis is difficult and time-consuming. This project builds a simple system to generate and analyze student performance data to identify trends, top performers, and students who need improvement.
 
 Dataset
 
-Source: Synthetic dataset generated using Python libraries
+A synthetic dataset of 250 students is generated using Python.
 
-Description:
-
-The dataset includes the following features:
-
-Student demographics (Gender, Department, Year)
-Academic scores (Mathematics, Science, English)
-Attendance percentage
-Internal assessment marks
-
-An overall academic performance perspective is derived using these attributes.
-
+Columns:
+Student_ID – Unique ID
+Name – Student Name
+Gender – Male / Female
+Department – CSE / IT / ECE
+Year – 1st / 2nd / 3rd
+Maths – Marks
+Science – Marks
+English – Marks
+Attendance – 50–100%
+Internal_Marks – 0–25
 Objectives
-Explore student academic data and identify performance patterns
-Identify high-performing and low-performing students
-Analyze the impact of attendance on marks
-Compare performance across departments, gender, and academic years
-Generate clear and interpretable insights using visualizations
-Project Highlights
-1. Data Preprocessing
-Verified data types and dataset structure
-Ensured consistency across all attributes
-Prepared dataset for analysis
-2. Exploratory Data Analysis (EDA)
-Analyzed distributions of marks and attendance
-Evaluated relationships between variables
-Identified key factors influencing performance
-3. Performance Analysis
-Calculated total and average marks
-Classified students based on performance levels
-Identified top and low performers
-Compared results across departments and academic years
-4. Relationship Analysis
-Studied correlation between attendance and marks
-Analyzed the impact of internal marks on total performance
-Evaluated subject-wise strengths and weaknesses
+Generate synthetic student dataset
+Clean and preprocess data
+Perform exploratory data analysis (EDA)
+Calculate total, average, and grades
+Identify top and fail students
+Compare performance by department, gender, and year
+Analyze relationships:
+Attendance vs Performance
+Internal Marks vs Total Marks
+Visualize data using charts
+Workflow
+1. Data Generation
+Created 250 student records using Faker and random values
+2. Data Preprocessing
+Checked missing values
+Removed duplicates
+Verified dataset structure
+3. Feature Engineering
+Calculated:
+Total Marks
+Average Marks
+Grade Classification (A, B, C, Fail)
+4. Analysis
+Top 5 students identified
+Fail students filtered
+Group analysis:
+Department-wise
+Gender-wise
+Year-wise
 5. Visualization
-
-Visualization techniques used include:
-
-Bar charts
-Pie charts
-Histograms
-Scatter plots
-
-These visualizations enhance interpretability and highlight trends effectively.
-
-Tools and Technologies
+Bar Chart – Department performance
+Pie Chart – Gender distribution
+Histogram – Average marks distribution
+Scatter Plot – Attendance vs Average
+Scatter Plot – Internal Marks vs Total
+Key Insights
+Higher attendance leads to better performance
+Internal marks strongly affect total marks
+Performance varies across departments and years
+Visualization helps understand patterns clearly
+Tools Used
 Python
 pandas
 numpy
@@ -73,28 +67,10 @@ matplotlib
 seaborn
 Faker
 Jupyter Notebook
-Results
-Key Findings
-Students with higher attendance tend to perform better academically
-Internal assessment marks significantly influence total scores
-Performance varies across departments and academic years
-Subject-wise analysis highlights strengths and areas for improvement
-Interpretation
-Attendance plays a crucial role in academic success
-Continuous assessment improves overall performance
-Data-driven insights support better academic planning
-Visualization helps in identifying patterns and trends clearly
-Pipeline Usage
-Running the Analysis
-Open Jupyter Notebook
-Load the file:
-WEEK_4_Student_Performance_Analysis_System.ipynb
-Future Improvements
-Apply machine learning models for performance prediction
-Build interactive dashboards using Streamlit or Power BI
-Automate data generation and analysis pipeline
-Deploy as a web-based analytics system
-Use real-world academic datasets for validation
+Conclusion
+
+This project demonstrates how data analytics can be used to analyze student performance effectively. It helps in identifying trends, improving academic planning, and supporting decision-making.
+
 Author
 
-Yuvasri . S
+Yuvasri S
