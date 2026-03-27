@@ -1,22 +1,22 @@
                                  Student Performance Analysis System (Synthetic Data)
-Problem Statement
+          Problem Statement
 
-Educational institutions generate large amounts of student data, but manual analysis is difficult and time-consuming. This project builds a simple system to generate and analyze student performance data to identify trends, top performers, and students who need improvement.
+                      Educational institutions generate large amounts of student data, but manual analysis is difficult and time-consuming. This project builds a simple system to generate and analyze student performance data to identify trends, top performers, and students who need improvement.
 
-Dataset
+           Dataset
 
-A synthetic dataset of 250 students is generated using Python.
+                         A synthetic dataset of 250 students is generated using Python.
 
-Columns:
-Student_ID – Unique ID
-Name – Student Name
-Gender – Male / Female
-Department – CSE / IT / ECE
-Year – 1st / 2nd / 3rd
-Maths – Marks
-Science – Marks
-English – Marks
-Attendance – 50–100%
+                                          Columns:
+                                              Student_ID – Unique ID
+                                              Name – Student Name
+                                              Gender – Male / Female
+                                              Department – CSE / IT / ECE
+                                              Year – 1st / 2nd / 3rd
+                                              Maths – Marks
+                                              Science – Marks
+                                              English – Marks
+                                              Attendance – 50–100%
 Internal_Marks – 0–25
 Objectives
 Generate synthetic student dataset
