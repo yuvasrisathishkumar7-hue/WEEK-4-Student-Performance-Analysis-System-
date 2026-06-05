@@ -1,10 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Student Performance Analysis System</title>
-</head>
-<body>
-
 <h1>Student Performance Analysis System (Synthetic Data)</h1>
 
 <h2>Problem Statement</h2>
